@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Header */
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #343a40;
+    padding: 20px;
+}
+
+.company-name {
+    text-align: center;
+}
+
+.company-name h1 {
+    font-size: 32px;
+    color: #ffffff;
+}
+
+.logo-container img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid #ffffff;
+    border-radius: 50%;
+}
+
+#navbar {
+    background: none;
+    color: #ffffff;
+    padding: 10px;
+    text-align: right;
+}
+
+#navbar a {
+    display: inline-block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+#navbar a:hover {
+    background-color: #6c757d;
+}
+
+#content-container {
+    padding: 40px 0;
+}
+
+.section-title {
+    font-size: 36px;
+    color: #343a40;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #666666;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.section-description p {
+    margin-bottom: 10px;
+}
+
+.section-description ul {
+    list-style-type: none;
+}
+
+.section-description li {
+    margin-bottom: 5px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.btn:active {
+    transform: scale(0.95);
+}
+
+#home-image {
+    background-image: url('images/home_image.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+}
+
+#index {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#profil {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	margin-top: 40px;
+}
+
+#vision {
+	background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	margin-top: 40px;
+}
+
+#mission {
+	background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+	margin-top: 40px;
+}
+
+#about-us {
+    background-color: #ffffff;
+    padding: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+#about-us h2 {
+    font-size: 24px;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+#about-us p {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+#gallery {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover img {
+    transform: scale(1.05);
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    width: 300px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.product:hover {
+    transform: translateY(-5px);
+}
+
+.product img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+.product-name {
+    font-size: 20px;
+    color: #333;
+}
+
+.product-description {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+.product-price {
+    font-size: 18px;
+    color: #007bff;
+    font-weight: bold;
+}
+
+#footer {
+    text-align: center;
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px;
+}
