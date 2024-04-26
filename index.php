@@ -27,6 +27,7 @@ $tgl = date('Y-m-d');
             <a href="produk.php">Produk Kami</a>
             <a href="kontak.php">Kontak Kami</a>
             <a href="about.php"><u>About Us</u></a>
+            <a href="logout.php">LogOut</a>
         </nav>
     </header>
 <div id="content-container">

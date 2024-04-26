@@ -21,6 +21,7 @@
             <a href="produk.php">Produk Kami</a>
             <a href="#" class="active">Kontak Kami</a>
             <a href="about.php">About Us</a>
+            <a href="logout.php">LogOut</a>
         </nav>
     </header>
 
