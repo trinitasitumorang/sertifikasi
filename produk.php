@@ -21,7 +21,7 @@ $tgl = date('Y-m-d');
         <h1>CLUB MOTOR</h1>
     </div>
     <nav id="navbar">
-        <a href="index.php">Index</a>
+        <a href="index.php">Home</a>
         <a href="profil.php">Profil</a>
         <a href="vimi.php">Visi dan Misi</a>
         <a href="#" class="active">Produk Kami</a>
