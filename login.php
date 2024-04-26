@@ -1,17 +1,12 @@
 <?php
 session_start();
 
-// Jika pengguna sudah login, arahkan ke halaman index
 if (isset($_SESSION['username'])) {
     header("Location: index.php");
     exit();
 }
 
-// Tangani permintaan POST
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Lakukan validasi formulir login di sini
-
-    // Setelah validasi, jika berhasil, arahkan ke halaman index
     header("Location: index.php");
     exit();
 }
